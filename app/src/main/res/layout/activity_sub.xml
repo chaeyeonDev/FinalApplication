@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="감상문"
+    android:textSize="20sp"
+    android:textColor="#000"
+    android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/xeditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:ems="600"
+        android:hint="마음에 드는 구절은 무엇인가요?" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저장하기">
+
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/xtextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+    </ScrollView>
+
+</LinearLayout>
